@@ -1,4 +1,4 @@
-require 'spec_helper'
+مثشقىrequire 'spec_helper'
 
 describe 'conference_badges' do
 
