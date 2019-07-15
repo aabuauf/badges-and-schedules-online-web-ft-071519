@@ -72,6 +72,7 @@ end
         names.each do|name|
           newbadge.push("Hello, my name is #{name}.")
         end
+      return newbadge
       end
     it 'should return a list of badge messages' do
       expect(batch_badge_creator(attendees)).to eq(badges)
