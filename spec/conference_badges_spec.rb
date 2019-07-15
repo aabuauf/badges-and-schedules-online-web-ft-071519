@@ -66,10 +66,10 @@ end
   describe '#batch_badge_creator' do
 
     # Question 2b
-      def newbadges =[]
+      newbadge = Array.new
       def batch_badge_creator(names)
         names.each do|name|
-          
+          newbadge.push("Hello, my name is #{name."))
         end
       end
     it 'should return a list of badge messages' do
