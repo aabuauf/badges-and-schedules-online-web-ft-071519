@@ -87,8 +87,8 @@ end
 
     # Question 3
 def assign_rooms(list)
-  list.each do|speaker|
-  newlist.push("Hello, #{speaker}! You'll be assigned to room #{roomNo}!")
+  list.each_with_index do|speaker,index|
+  newlist.push("Hello, #{speaker}! You'll be assigned to room #{index+1}!")
   end
 end
     it 'should return a list of welcome messages and room assignments' do
