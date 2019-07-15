@@ -86,7 +86,9 @@ end
   describe '#assign_rooms' do
 
     # Question 3
-
+def assign_rooms()
+  
+end
     it 'should return a list of welcome messages and room assignments' do
       expect(assign_rooms(attendees)).to eq(room_assignments)
     end
