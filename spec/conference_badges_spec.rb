@@ -66,8 +66,9 @@ end
   describe '#batch_badge_creator' do
 
     # Question 2b
-      newbadge = Array.new
+      
       def batch_badge_creator(names)
+        newbadge = Array.new
         names.each do|name|
           newbadge.push("Hello, my name is #{name."))
         end
