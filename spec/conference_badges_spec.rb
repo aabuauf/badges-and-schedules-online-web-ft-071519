@@ -66,7 +66,12 @@ end
   describe '#batch_badge_creator' do
 
     # Question 2b
-
+      def newbadges =[]
+      def batch_badge_creator(names)
+        names.each do|name|
+          
+        end
+      end
     it 'should return a list of badge messages' do
       expect(batch_badge_creator(attendees)).to eq(badges)
     end
