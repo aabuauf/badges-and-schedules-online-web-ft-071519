@@ -108,7 +108,11 @@ end
     # The method `printer` should output first the results of the batch_badge_creator method and then of the assign_rooms method to the screen - this way you can output
     # the badges and room assignments one at a time.
     # To make this test pass, make sure you are iterating through your badges and room assignments lists.
-
+def printer()
+  batch_badge_creator(names).each do|badge|
+  puts badge
+  end
+end
     it 'should puts the list of badges and room_assignments' do
       badges_and_room_assignments.each_line do |line|
         # $stdout is a Ruby global varibale that represents the current standard output.
