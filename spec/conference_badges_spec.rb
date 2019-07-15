@@ -109,7 +109,8 @@ end
     # the badges and room assignments one at a time.
     # To make this test pass, make sure you are iterating through your badges and room assignments lists.
 def printer()
-  batch_badge_creator(names).each do|badge|
+  batchBadge = batch_badge_creator(names)
+  batchBadge.each do|badge|
   puts badge
   end
 end
