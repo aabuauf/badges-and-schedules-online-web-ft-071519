@@ -55,7 +55,7 @@ TEXT
 
     # Question 1
 def badge_maker()
-  
+  return 
 end
     it 'should return a formatted badge' do
       expect(badge_maker(name)).to eq("Hello, my name is #{name}.")
